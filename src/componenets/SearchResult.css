@@ -1,0 +1,48 @@
+.Div_Main_Style {
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  font-size: large;
+  color: tomato;
+  padding-top: 280px;
+}
+.Div_MainQouteFiltered_Style {
+  text-align: left;
+  color: navy;
+  background-color: #f0f0f0;
+  border-radius: 5px;
+  font-family: "Oleo Script", cursive;
+  width: 80%;
+  margin: 20px auto;
+  transition: 200ms;
+}
+.Div_MainQouteFiltered_Style:hover {
+  background-image: linear-gradient(270deg, #0a3d62, #764ba2);
+  background-size: 200% 200%;
+  color: whitesmoke;
+  transform: scale(1.01);
+  animation: HeaderGradient 10s ease infinite;
+}
+@keyframes error {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.07);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+.P_Nothing_Style {
+  font-family: "Concert One", cursive;
+  animation: error infinite 2s;
+}
+.Div_QouteFiltered_Style {
+  height: 120px;
+  display: flex;
+  font-size: 20px;
+  font-weight: bolder;
+  padding-right: 80px;
+  line-height: 40px;
+  padding-top: 35px;
+}
