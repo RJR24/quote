@@ -1,0 +1,83 @@
+@keyframes HeaderGradient {
+    0% {
+        background-position:0% 50%;
+    }
+    50% {
+        background-position:100% 50%;
+    }
+    100% {
+        background-position:0% 50%;
+    }
+}
+.Div_Header_Style{
+    margin: 0px;
+    width: 100%;
+    height: 250px;    
+    background-image: linear-gradient(270deg, #0a3d62 , #764ba2);
+    background-size: 200% 200%;
+    animation: HeaderGradient 10s ease infinite;
+    position: fixed;
+    z-index: 100;
+}
+.Div_MainQoute_Style{
+    margin: 0px auto;
+    width: 80%;
+    height: 200px;
+    font-family: 'Oleo Script', cursive;
+    color: whitesmoke;
+}
+.I_Qoute_Style{
+    margin: 0px 20px;
+    font-size: 35px;
+}
+.Div_Qoute_Style{
+    height: 120px;
+    display: flex;
+    font-size: 25px;
+    font-weight: bolder;
+    padding-right: 80px;
+    line-height: 40px;
+    padding-top: 35px;
+}
+.Div_Author_Style{
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 100px;
+    font-size: 18px;
+}
+.Div_Search_Style{
+    height: 49px;
+    border-top: 0.5px  solid whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+.Input_Search_Style{
+    width: 50%;
+    height: 35px;
+    padding: 0px;
+    border: none;
+    outline: none;
+    border-radius: 50px;
+    text-indent: 15px;
+    font-family: 'Open Sans', sans-serif;
+}
+.P_Search_Style{
+    width: 100px;
+    padding: 7px;
+    text-align: center;
+    margin-left: 10px;
+    background-color: #f0f0f0;
+    color: navy;
+    border-radius: 50px;
+    font-size: 14px;
+    transition: 200ms;
+    letter-spacing: 0.5px;
+    font-family: 'Open Sans', sans-serif;
+}
+.P_Search_Style:hover{
+    background-color: white;
+    cursor: pointer;
+}
